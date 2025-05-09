@@ -10,5 +10,8 @@ fun main() {
     println(validCarNames)
 
     val  raceRoundInput = RaceRoundInput();
-    raceRoundInput.getRaceRound();
+   val numOfRound = raceRoundInput.getRaceRound();
+    println(numOfRound)
+
+
 }
